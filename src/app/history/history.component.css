@@ -1,3 +1,9 @@
+/* css Generale */
+
+h1 {
+    background-color: black;
+}
+
 /* au-dessus de tablette  */
 @media screen and (min-width: 991px) {
 
@@ -10,17 +16,18 @@
     font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
     background-color:silver;
     }
+
     #wrapper
     {
     margin:0 auto;
     padding:0px;
-    /* text-align:center; */
     width:995px;
     }
 
     #wrapper p
     {
-    font-size:16px;
+        font-size:16px;
+        line-height: 30%; 
     }
 
     #timeline_bar
@@ -40,8 +47,8 @@
     position:relative;
     margin-top:20px;
     margin-bottom:20px;
-    width:330px;
-    height:70px;
+    width:300px;
+    height:215px;
     background-color:rgb(255, 255, 255);
     padding:15px;
     box-sizing:border-box;
@@ -51,20 +58,18 @@
     font-size:15px;
     }
 
-
-
     #timeline
     {
         position:relative;
         width:700px;
-        height:3000px; /* hauteur timeline */
+        height:3800px; /* hauteur timeline */
         float:left;
         margin-left:145px;
     }
     #timeline li:nth-child(odd) 
     {
         margin-right:10px;
-        right:-10px;
+        right:-40px;
     }
     #timeline li:nth-child(even)
     {
@@ -135,7 +140,7 @@
     {
         position:relative;
         width:0px;
-         height:2000px; /* hauteur timeline */
+         height:1950px; /* hauteur timeline */
         float:left;
         margin-left:10px;
     }
