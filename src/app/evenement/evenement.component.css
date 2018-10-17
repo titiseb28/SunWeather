@@ -28,7 +28,7 @@
 
 .card:hover img
 {
-    border : 3px solid #c0914f;
+    border : 1px solid #c0914f;
     transition: all 1s;
 }
 
