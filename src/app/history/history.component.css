@@ -48,7 +48,7 @@ h1 {
     margin-top:20px;
     margin-bottom:20px;
     width:300px;
-    height:215px;
+    height:250px;
     background-color:rgb(255, 255, 255);
     padding:15px;
     box-sizing:border-box;
@@ -62,7 +62,7 @@ h1 {
     {
         position:relative;
         width:700px;
-        height:3800px; /* hauteur timeline */
+        height:4400px; /* hauteur timeline */
         float:left;
         margin-left:145px;
     }
