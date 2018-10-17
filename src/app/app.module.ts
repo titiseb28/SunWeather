@@ -17,6 +17,7 @@ import { FooterComponent } from './footer/footer.component';
 import { SunIdComponent } from './sun-id/sun-id.component';
 import { EvenementComponent } from './evenement/evenement.component';
 import { ApiService } from './api.service';
+import { HistoryComponent } from './history/history.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ApiService } from './api.service';
     NavbarComponent,
     FooterComponent,
     SunIdComponent,
-    EvenementComponent
+    EvenementComponent,
+    HistoryComponent
   ],
   imports: [
     BrowserModule,
@@ -46,6 +48,10 @@ import { ApiService } from './api.service';
       {
         path : 'glossaire',
         component : GlossaireComponent
+      },
+      {
+        path : 'history',
+        component : HistoryComponent
       }
     ])
   ],
