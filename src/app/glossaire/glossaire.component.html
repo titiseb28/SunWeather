@@ -1,12 +1,12 @@
 <div id="accordion" class="container">
 
-  <div class="row">
+  <div class="card-columns">
 
-    <div class="col-12 mb-3" *ngFor="let definition of definitions">
+    <div class="" *ngFor="let definition of definitions">
       <div class="card bg-black text-white">
-        <div class="card-header" id="{{ 'heading' + definition.id }}">
+        <div class="card-header" id="{{ 'heading' + definition.id }}" data-toggle="collapse" [attr.data-target]="'#collapse' + definition.id" aria-expanded="true" attr.aria-controls="{{ 'collapse' + definition.id }}">
             <h5 class="mb-0">
-              <button class="btn btn-link break-word text-uppercase d-inline-block" data-toggle="collapse" [attr.data-target]="'#collapse' + definition.id" aria-expanded="true" attr.aria-controls="{{ 'collapse' + definition.id }}" >
+              <button class="btn btn-link break-word text-uppercase d-inline-block" >
                 {{ definition.name }}
               </button>
             </h5>

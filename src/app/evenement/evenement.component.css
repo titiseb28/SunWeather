@@ -1,7 +1,7 @@
 .bg-black
 {
     color : #FFFFFF;
-    background-color : #000000; 
+    background-color : #000000;
 }
 
 .card
@@ -10,7 +10,7 @@
     text-align : justify;
     opacity : 0.75;
     border : 2px solid white;
-    transition : all 1s ease-in-out; 
+    transition : all 1s ease-in-out;
 }
 
 .card p
@@ -60,4 +60,28 @@
 .space-around
 {
     justify-content : space-around;
+}
+
+@media (min-width: 1px) {
+    .card-columns {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
 }

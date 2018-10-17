@@ -9,6 +9,7 @@
 {
     border-bottom : 1px solid white;
     transition : all 1s ease-in-out;
+    cursor: pointer;
 }
 
 .break-word
@@ -38,15 +39,15 @@
 
 button
 {
-    text-decoration : none; 
+    text-decoration : none;
     font-size : 1em;
     background-color : #000;
     color : #FFF;
     font-weight : bold;
-    transition : all 1s ease-in-out; 
+    transition : all 1s ease-in-out;
 }
 
-button:hover
+.card:hover button
 {
     background-color : #555;
     border : 1px solid #c0914f;
@@ -56,7 +57,7 @@ button:hover
 {
     opacity : 0.75;
     border : 2px solid white;
-    transition : all 1s ease-in-out; 
+    transition : all 1s ease-in-out;
 }
 
 .card:hover
@@ -73,4 +74,20 @@ button:hover
 .card:hover button
 {
     color : #c0914f;
+}
+
+@media (min-width: 1px) {
+    .card-columns {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
 }
