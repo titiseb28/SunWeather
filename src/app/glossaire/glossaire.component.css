@@ -1,0 +1,76 @@
+.definition
+{
+    font-family: "Times New Roman", Times, serif;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-size : 1.3em;
+}
+
+.card-header
+{
+    border-bottom : 1px solid white;
+    transition : all 1s ease-in-out;
+}
+
+.break-word
+{
+    white-space: pre-line;
+}
+
+.bg-black
+{
+    background-color : black;
+}
+
+.bg-light-black
+{
+    background-color : rgb(40,40,40);
+}
+
+.btn-link
+{
+    color : white;
+}
+
+.btn
+{
+    text-decoration : none;
+}
+
+button
+{
+    text-decoration : none; 
+    font-size : 1em;
+    background-color : #000;
+    color : #FFF;
+    font-weight : bold;
+    transition : all 1s ease-in-out; 
+}
+
+button:hover
+{
+    background-color : #555;
+    border : 1px solid #c0914f;
+}
+
+.card
+{
+    opacity : 0.75;
+    border : 2px solid white;
+    transition : all 1s ease-in-out; 
+}
+
+.card:hover
+{
+    opacity : 1;
+    border : 2px solid #c0914f;
+}
+
+.card:hover .card-header
+{
+    border-bottom : 1px solid #c0914f;
+}
+
+.card:hover button
+{
+    color : #c0914f;
+}

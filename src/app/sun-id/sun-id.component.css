@@ -1,0 +1,38 @@
+.bg-black
+{
+    background-color : black;
+}
+.ap-ID-title {
+    position : relative;
+    left : 50%;
+ }
+ 
+ .ap-story-link {
+    position : absolute;
+    right : 3%;
+    color: inherit;
+    text-decoration: inherit;
+ }
+ 
+ .ap-align-IDCard {
+    text-align: center;
+ }
+ 
+ .ap-space-between-li li {
+    margin-top: 8px;
+ }
+ 
+ .ap-li-no-bullets {
+    list-style: none;
+ }
+ 
+ .card .ap-bold-text {
+    font-weight: bold;
+ }
+ 
+ @media only screen and (max-width: 980px) {
+    .ap-ID-title {
+       position : inherit!important;
+    }
+ }
+ 
