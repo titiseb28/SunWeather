@@ -44,7 +44,7 @@ import { ApiService } from './api.service';
         component : SunIdComponent
       },
       {
-        path : 'glossaire',
+        path : 'glossary',
         component : GlossaireComponent
       }
     ])

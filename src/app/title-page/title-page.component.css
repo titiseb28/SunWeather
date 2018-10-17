@@ -6,8 +6,18 @@
     overflow:hidden;
 }
 
-.carousel-caption 
+.carousel-caption
 {
     top: 0;
     bottom: auto;
+}
+
+@media only screen and (max-width: 576px) {
+   .carousel
+   {
+       /*position : absolute;*/
+       /*clip : rect(0px, 100%, 500px, 0px);*/
+       height : 55vh;
+       overflow:hidden;
+   }
 }
