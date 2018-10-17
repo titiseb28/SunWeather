@@ -11,10 +11,14 @@
                     <img class="d-none d-md-inline float-right img-fluid" src="{{ event.getImageUrl() }}" />
 
                     <p class="card-text">
-                        {{ event.getDetails() }}
+                        Details : {{ event.getDetails() }}
                     </p>
 
-                    <a class="d-block d-md-none" target="_blank">Lien vers image</a>
+                    <p class="card-text">
+                        Definition : <q>{{ event.getDefinition() }}</q>
+                    </p>
+
+                    <a class="d-block d-md-none" target="_blank" [href]="event.getImageUrl()">Lien vers image</a>
                 </div>
             </div>
         </div>
