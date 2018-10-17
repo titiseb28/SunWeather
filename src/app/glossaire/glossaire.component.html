@@ -1,0 +1,25 @@
+<div id="accordion" class="container">
+
+  <div class="row">
+
+    <div class="col-12 mb-3" *ngFor="let definition of definitions">
+      <div class="card bg-black text-white">
+        <div class="card-header" id="{{ 'heading' + definition.id }}">
+            <h5 class="mb-0">
+              <button class="btn btn-link break-word text-uppercase d-inline-block" data-toggle="collapse" [attr.data-target]="'#collapse' + definition.id" aria-expanded="true" attr.aria-controls="{{ 'collapse' + definition.id }}" >
+                {{ definition.name }}
+              </button>
+            </h5>
+        </div>
+
+        <div id="{{ 'collapse' + definition.id }}" class="collapse bg-light-black" attr.aria-labelledby="{{ 'heading' + definition.id }}" data-parent="#accordion">
+          <div class="card-body definition">
+            {{ definition.description }}
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>

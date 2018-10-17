@@ -1,0 +1,87 @@
+[
+{
+    "id" : 0,
+    "name" : "ambient solar wind",
+    "description" : "the undisturbed outflow of the Sun's ionized atmosphere into interplanetary space."
+},
+{
+    "id" : 7,
+    "name" : "auroral activity",
+    "description" : "usually refers to visible aurora and the particles that create them, but may also refer to electrical currents that flow in the auroral region. One measure of auroral activity is hemispheric power."
+},
+{
+    "id" : 1,
+    "name" : "ACE",
+    "description" : "the Advanced Composition Explorer (ACE) spacecraft is positioned on the Earth-Sun line and provides measurements of the solar wind plasma and radiation conditions that will impact Earth."
+},
+{
+    "id" : 2,
+    "name" : "active regions",
+    "description" : "A disturbed volume of the Sun's atmosphere that often consists of (from bottom to top) sunspots, plage, prominences, and hot magnetized loops. Active regions may release significant amounts of energy during magnetic eruptions that produce coronal mass ejections and/or flares."
+},
+{
+    "id" : 3,
+    "name" : "ambient solar wind",
+    "description" : "the outflow of the Sun's ionized atmosphere into interplanetary space."
+},
+{
+    "id" : 4,
+    "name" : "AU",
+    "description" : "1 Astronomical Unit (AU) is equal to the average distance from the Earth to the Sun. This is a convenient measure of distances in the solar system."
+},
+{
+    "id" : 5,
+    "name" : "aurora",
+    "description" : "transient displays of light, often displaying as moving curtains and rays, at high latitudes associated with geomagnetic disturbances."
+},
+{
+    "id" : 6,
+    "name" : "auroral region",
+    "description" : "oval-shaped, high-latitude zone centered on the geomagnetic pole, in which aurora are most visible."
+},
+{
+    "id" : 8,
+    "name" : "auroral boundary",
+    "description" : "The high and low latitude edges of the auroral zone, typically 72 deg (poleward) and 62 deg (equatorward)."
+},
+{
+    "id" : 9,
+    "name" : "auroral precipitation",
+    "description" : "ionized particles that fall, or are accelerated, into Earth's atmosphere to create the aurora and aid in the flow of electrical current."
+},
+{
+    "id" : 10,
+    "name" : "cadence",
+    "description" : "in science, the rate at which an instrument, usually an imager, records a data."
+},
+{
+    "id" : 11,
+    "name" : "Carrington event",
+    "description" : "An extremely powerful solar flare followed by intense geomagnetic activity in late August and early September 1859."
+},
+{
+    "id" : 12,
+    "name" : "Carrington rotation",
+    "description" : "a full rotation of the Sun with a period of about 27 days."
+},
+{
+    "id" : 13,
+    "name" : "chromosphere",
+    "description" : "The region of the Sun’s atmosphere that exists just above the photosphere. The chromosphere is visible with a special narrow band telescope the views the emissions of Hydrogen-alpha. "
+},
+{
+    "id" : 14,
+    "name" : "Corotating Interaction Region (CIR)",
+    "description" : "Corotating interaction regions are zones of enhanced solar wind plasma density and interplanetary magnetic field that result from a region of slow solar wind (ahead) being compressed by fast solar wind behind it. In Earth's reference frame these enhanced regions sweep by, often creating small to moderate geomagnetic disturbances for a few to tens of hours."
+},
+{
+    "id" : 15,
+    "name" : "CME Coronal Mass Ejection",
+    "description" : "Coronal Mass Ejection - An eruption in the outer solar atmosphere that sends billions of tons of magnetized plasma clouds into interplanetary space. When traveling at high speeds these ejections create shocks in the solar wind. Earth-intercept of a CME is often followed by a geomagnetic storm."
+},
+{
+    "id" : 16,
+    "name" : "CME angular width",
+    "description" : "the full angular width of the CME, a measure of the size of a coronal mass ejection as it propagates away from the Sun."
+}
+]
