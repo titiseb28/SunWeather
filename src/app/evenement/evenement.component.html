@@ -1,5 +1,5 @@
 <div class="container-fluid">
-    <div class="row space-around">
+    <div class="row">
         <div class="col-12 col-md-6 col-lg-5 col-xl-4" *ngFor="let event of evenements">
             <div class="card bg-black">
                 <div class="card-header">
@@ -11,10 +11,14 @@
                     <img class="d-none d-md-inline float-right img-fluid" src="{{ event.getImageUrl() }}" />
 
                     <p class="card-text">
-                        {{ event.getDetails() }}
+                        Details : {{ event.getDetails() }}
                     </p>
 
-                    <a class="d-block d-md-none" target="_blank">Lien vers image</a>
+                    <p class="card-text">
+                        Definition : <q>{{ event.getDefinition() }}</q>
+                    </p>
+
+                    <a class="d-block d-md-none" target="_blank" [href]="event.getImageUrl()">Lien vers image</a>
                 </div>
             </div>
         </div>

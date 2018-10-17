@@ -35,6 +35,7 @@
 .card a
 {
     text-align : center;
+    color : #c0914f;
 }
 
 .card-header
@@ -55,9 +56,4 @@
 .card:hover .card-header
 {
     border-bottom : 1px solid #c0914f;
-}
-
-.space-around
-{
-    justify-content : space-around;
 }
