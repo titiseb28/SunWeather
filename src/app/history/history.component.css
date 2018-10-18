@@ -2,6 +2,23 @@
 
 h1 {
     background-color: black;
+    border : 1px solid #C0914F;
+}
+
+#timeline li
+{
+    background-color : black;
+    border : 1px solid #c0914f;
+}
+
+#timeline_bar
+{
+    background-color : #C0914F;
+}
+
+p
+{
+    color : white;
 }
 
 /* au-dessus de tablette  */
@@ -9,19 +26,19 @@ h1 {
 
     body
     {
-    margin:0 auto;
-    padding:0px;
-    text-align:center;
-    width:100%;
-    font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
-    background-color:silver;
+        margin:0 auto;
+        padding:0px;
+        text-align:center;
+        width:100%;
+        font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+        background-color:silver;
     }
 
     #wrapper
     {
-    margin:0 auto;
-    padding:0px;
-    width:995px;
+        margin:0 auto;
+        padding:0px;
+        width:995px;
     }
 
     #wrapper p
@@ -32,30 +49,27 @@ h1 {
 
     #timeline_bar
     {
-    padding: 0;
-    list-style: none;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    width: 10px;
-    background-color:rgb(255, 255, 255);
-    border-radius:10px;
+        padding: 0;
+        list-style: none;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        width: 10px;
+        border-radius:10px;
     }
     #timeline li
     {
-    position:relative;
-    margin-top:20px;
-    margin-bottom:20px;
-    width:300px;
-    height:250px;
-    background-color:rgb(255, 255, 255);
-    padding:15px;
-    box-sizing:border-box;
-    border-radius:10px;
-    list-style-type:none;
-    color:rgb(0, 0, 0);
-    font-size:15px;
+        position:relative;
+        margin-top:20px;
+        margin-bottom:20px;
+        width:300px;
+        height:250px;
+        padding:15px;
+        box-sizing:border-box;
+        border-radius:10px;
+        list-style-type:none;
+        font-size:15px;
     }
 
     #timeline
@@ -73,7 +87,7 @@ h1 {
     }
     #timeline li:nth-child(even)
     {
-    left:370px;
+        left:370px;
     }
 }
 
@@ -82,71 +96,70 @@ h1 {
 
     body
     {
-    margin:0 auto;
-    padding:0px;
-    text-align:center;
-    width:100%;
-    font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
-    background-color:silver;
+        margin:0 auto;
+        padding:0px;
+        text-align:center;
+        width:100%;
+        font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+        background-color:silver;
     }
+
     #wrapper
     {
-    margin:0 auto;
-    padding:0px;
-    text-align:center;
-    
+        margin:0 auto;
+        padding:0px;
+        text-align:center;
     }
+
     #wrapper h1
     {
-    margin-top:50px;
-    font-size:45px;
+        margin-top:50px;
+        font-size:45px;
     }
+
     #wrapper p
     {
-    font-size:16px;
+        font-size:16px;
     }
 
     #timeline_bar
     {
-    padding: 0;
-    list-style: none;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    width: 10px;
-    background-color:rgb(255, 255, 255);
-    border-radius:10px;
+        padding: 0;
+        list-style: none;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        width: 10px;
+        border-radius:10px;
     }
+
     #timeline li
     {
-    position:relative;
-    margin-top:20px;
-    margin-bottom:20px;
-    width:250px;
-    height:100px;
-    background-color:rgb(255, 255, 255);
-    padding:15px;
-    box-sizing:border-box;
-    border-radius:10px;
-    list-style-type:none;
-    color:rgb(0, 0, 0);
-    font-size:15px;
+        position:relative;
+        margin-top:20px;
+        margin-bottom:20px;
+        width:250px;
+        height:100px;
+        padding:15px;
+        box-sizing:border-box;
+        border-radius:10px;
+        list-style-type:none;
+        font-size:15px;
     }
-
-
 
     #timeline
     {
         position:relative;
         width:0px;
-         height:1950px; /* hauteur timeline */
+        height:1950px; /* hauteur timeline */
         float:left;
         margin-left:10px;
     }
-    #timeline li {
+
+    #timeline li 
+    {
         margin-left: 25px ;
-        
     }
  
 }
