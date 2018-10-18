@@ -21,3 +21,11 @@
        overflow:hidden;
    }
 }
+
+#displayText
+{
+    position : absolute;
+    /*top : 0;*/
+    z-index : 1;
+    font-size : 0.9em;
+}
