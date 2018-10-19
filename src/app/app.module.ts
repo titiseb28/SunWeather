@@ -46,6 +46,10 @@ import { ApiService } from './api.service';
       {
         path : 'glossaire',
         component : GlossaireComponent
+      },
+      {
+        path : 'missions',
+        component : MissionsComponent
       }
     ])
   ],

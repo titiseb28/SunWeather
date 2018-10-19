@@ -1,7 +1,7 @@
 <div class="container-fluid px-0 mb-2">
   <nav class="navbar navbar-expand-sm bg-black pl-0 pr-0 pt-0 pb-0">
     <img routerLink="" class="pl-0 col-1 d-none d-md-none d-lg-block" src="https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001661/GSFC_20171208_Archive_e001661~small.jpg"  alt="">
-<!-- menu grand ecran Start -->
+<!-- menu grand ecran Start desktop -->
     <ul class="navbar-nav justify-content-center col-6 col-md-8 col-lg-10">
       <h2 class="d-lg-none d-md-block text-white">Sun weather</h2>
       <li class="nav-item d-none d-md-none d-lg-block">
@@ -13,11 +13,14 @@
       <li class="nav-item d-none d-md-none d-lg-block">
         <a routerLink="glossaire" class="nav-link"><button type="button" class="btn btn-link text-uppercase">Glossary</button></a>
       </li>
+      <li class="nav-item d-none d-md-none d-lg-block">
+        <a routerLink="missions" class="nav-link"><button type="button" class="btn btn-link text-uppercase">Missions</button></a>
+      </li>
     </ul>
 
 <!-- menu grand ecran END-->
 
-<!-- menu burger START-->
+<!-- menu burger START mobile-->
 <div class="dropdown col-2 offset-sm-4 offset-md-2 dropleft d-lg-none d-md-block ">
   <button class="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     <svg style="width:24px;height:24px" viewBox="0 0 24 24"><path fill="#000000" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
@@ -27,6 +30,7 @@
     <a class="dropdown-item text-white text-uppercase" routerLink="/" >home</a>
     <a class="dropdown-item text-white text-uppercase" routerLink="sunid" >my identity card</a>
     <a class="dropdown-item text-white text-uppercase" routerLink="glossaire">Glossaire</a>
+    <a class="dropdown-item text-white text-uppercase" routerLink="missions">Missions</a>
   </div>
 </div>
 
