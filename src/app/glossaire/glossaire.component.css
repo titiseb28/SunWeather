@@ -5,6 +5,14 @@
     font-size : 1.3em;
 }
 
+.titre
+{
+    text-align : center;
+    color : white;
+    background-color : black;
+    border : 1px solid #c0914f;
+}
+
 .card-header
 {
     border-bottom : 1px solid white;

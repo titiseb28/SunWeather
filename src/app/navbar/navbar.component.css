@@ -1,3 +1,8 @@
+.btn, .dropdown-item, h2
+{
+    font-family : 'Optimus'; 
+}
+
 .bg-black {
     background-color: #000;
 }

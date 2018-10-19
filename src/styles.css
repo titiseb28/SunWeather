@@ -3,3 +3,13 @@ body
 {
     background-image : url('assets/fond.jpg');
 }
+
+@font-face {
+    font-family : 'Optimus';
+    src : url('/assets/font/Optimus.otf') format('truetype');
+}
+
+h1, h2, h3
+{
+    font-family : 'Optimus' !important; 
+}
