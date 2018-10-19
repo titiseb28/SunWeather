@@ -2,7 +2,14 @@
 {
     font-family : 'Optimus';
 }
+.navbar-expand-sm .navbar-nav .nav-link {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
 
+.nav-link {
+   padding: 0;
+}
 .bg-black {
     background-color: #000;
 }
