@@ -1,7 +1,15 @@
+.navbar-expand-sm .navbar-nav .nav-link {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.nav-link {
+   padding: 0;
+}
 .bg-black {
     background-color: #000;
 }
-   
+
 .dropdown-item:hover {
     background-color: #FFF;
 }
@@ -11,7 +19,7 @@
     font-size : 1.5rem;
     color : white;
     border-radius : 0px;
-    text-decoration : none; 
+    text-decoration : none;
 }
 
 .btn:hover
@@ -19,16 +27,16 @@
     background-color : #EEE;
     /*border : 1px solid #FF0;*/
     /*height : 100%;*/
-    text-decoration : none; 
+    text-decoration : none;
     color : black;
-    border-radius : 0px; 
+    border-radius : 0px;
 
     transition : all 0.3s;
 }
 
 .navbar img
 {
-    cursor : pointer; 
+    cursor : pointer;
 }
 
 @media (max-width: 768px) {
