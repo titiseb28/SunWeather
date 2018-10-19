@@ -9,7 +9,7 @@ body
     src : url('/assets/font/Optimus.otf') format('truetype');
 }
 
-h1, h2, h3
+h1, h2, h3, .card-header
 {
     font-family : 'Optimus' !important; 
 }
