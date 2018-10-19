@@ -1,10 +1,4 @@
-[
-{
-    "id" : 0,
-    "name" : "ambient solar wind",
-    "description" : "the undisturbed outflow of the Sun's ionized atmosphere into interplanetary space."
-},
-{
+[{
     "id" : 7,
     "name" : "auroral activity",
     "description" : "usually refers to visible aurora and the particles that create them, but may also refer to electrical currents that flow in the auroral region. One measure of auroral activity is hemispheric power."
