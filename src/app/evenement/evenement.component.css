@@ -3,7 +3,7 @@
     margin-bottom : 4em;
     text-align : justify;
     opacity : 0.8;
-    border : 2px solid white;
+    border : 2px solid white; 
     transition : all 0.6s ease-in;
 }
 
@@ -45,6 +45,7 @@
 {
     opacity : 1;
     border : 2px solid #c0914f;
+    box-shadow : 2px 2px 8px white, -2px -2px 8px white;
 }
 
 .card:hover .card-header
