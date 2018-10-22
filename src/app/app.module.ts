@@ -56,6 +56,10 @@ import { HistoryComponent } from './history/history.component';
       {
         path : 'missions',
         component : MissionsComponent
+      },
+      {
+        path : 'events',
+        component : EvenementComponent
       }
     ])
   ],
