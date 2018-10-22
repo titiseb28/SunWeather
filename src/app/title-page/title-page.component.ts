@@ -20,8 +20,8 @@ export class TitlePageComponent implements OnInit {
   constructor(param: ApodService) {
     this.apodService = param;
     this.apods = [];
-    this.today = new Apod('https://apod.nasa.gov/apod/image/1505/Looming67P_Rosetta_960.jpg'
-                , '1995-06-26', 'Page vide', 'Les données n\'ont pas encore été récupérés');
+    this.today = new Apod('assets/chargement.gif'
+                , '', 'Chargement', 'Les données n\'ont pas encore été récupérés');
   }
 
   ngOnInit() {

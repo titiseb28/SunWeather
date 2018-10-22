@@ -1,12 +1,12 @@
-<h1 class="mt-1 offset-md-2 col-md-8 col-12 titre py-3 rounded">GLOSSARY</h1>
+<h1 class="mt-1 offset-md-2 col-md-8 col-12 titre-page py-3 rounded">Glossary</h1>
 
 <div id="accordion" class="container">
 
   <div class="card-columns">
 
-    <div class="" *ngFor="let definition of definitions">
+    <div *ngFor="let definition of definitions">
       <div class="card bg-black text-white">
-        <div class="card-header" id="{{ 'heading' + definition.id }}" data-toggle="collapse" [attr.data-target]="'#collapse' + definition.id" aria-expanded="true" attr.aria-controls="{{ 'collapse' + definition.id }}">
+        <div class="card-header bg-black" id="{{ 'heading' + definition.id }}" data-toggle="collapse" [attr.data-target]="'#collapse' + definition.id" aria-expanded="true" attr.aria-controls="{{ 'collapse' + definition.id }}">
             <h5 class="mb-0">
               <button class="btn btn-link break-word text-uppercase d-inline-block" >
                 {{ definition.name }}
@@ -22,6 +22,7 @@
       </div>
 
     </div>
+
   </div>
 
 </div>

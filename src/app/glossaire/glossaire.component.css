@@ -1,33 +1,42 @@
 .definition
 {
-    font-family: "Times New Roman", Times, sans-serif;
-    /*font-family: Arial, Helvetica, sans-serif;*/
+    /*font-family: "Times New Roman", Times, sans-serif;*/
+    font-family: Arial, Helvetica, sans-serif;
     font-size : 1.3em;
 }
 
-.titre
+/* Style des cartes */
+.card
 {
-    text-align : center;
+    opacity: 0.8;
     color : white;
-    background-color : black;
-    border : 1px solid #c0914f;
+    border : 1px solid white;
+    transition : all 0.6s ease-in-out;
 }
 
 .card-header
 {
     border-bottom : 1px solid white;
-    transition : all 1s ease-in-out;
+    transition : all 0.6s ease-in-out;
     cursor: pointer;
+}
+
+@media (min-width: 992px) {
+    .card-header:hover button
+    {
+        transform : translate(3vw); 
+    }
+}
+
+.card:hover, .card:hover .card-header
+{
+    opacity: 1;
+    border-color : #C0914F; 
 }
 
 .break-word
 {
     white-space: pre-line;
-}
-
-.bg-black
-{
-    background-color : black;
 }
 
 .bg-light-black
@@ -45,6 +54,7 @@
     text-decoration : none;
 }
 
+/* Décoration bouton par défaut */
 button
 {
     text-decoration : none;
@@ -55,35 +65,15 @@ button
     transition : all 1s ease-in-out;
 }
 
+/* Bouton afin de déplier la définition */
 .card:hover button
 {
     background-color : #555;
     border : 1px solid #c0914f;
-}
-
-.card
-{
-    opacity : 0.75;
-    border : 2px solid white;
-    transition : all 1s ease-in-out;
-}
-
-.card:hover
-{
-    opacity : 1;
-    border : 2px solid #c0914f;
-}
-
-.card:hover .card-header
-{
-    border-bottom : 1px solid #c0914f;
-}
-
-.card:hover button
-{
     color : #c0914f;
 }
 
+/* Gère l'affichage des cartes pour petits écrans */
 @media (min-width: 1px) {
     .card-columns {
         -webkit-column-count: 1;
@@ -92,6 +82,7 @@ button
     }
 }
 
+/* Gère l'affichage des cartes pour moyens écrans */
 @media (min-width: 992px) {
     .card-columns {
         -webkit-column-count: 2;

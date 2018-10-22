@@ -1,7 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 body
 {
-    background-image : url('assets/fond.jpg');
+    /*background-image : url('assets/fond.jpg');*/
+	background-image : url('assets/fond_test.png');
 }
 
 @font-face {
@@ -9,7 +10,22 @@ body
     src : url('/assets/font/Optimus.otf') format('truetype');
 }
 
-h1, h2, h3, .card-header
+h1, h2, h3, h4, h5, .card-header
 {
     font-family : 'Optimus' !important; 
+}
+
+.titre-page
+{
+    text-align : center;
+    color : white;
+    background-color : black;
+    border : 1px solid #C0914F;
+    text-transform : uppercase;
+}
+
+.bg-black
+{
+    color : #FFFFFF !important;
+    background-color : #000000 !important;
 }

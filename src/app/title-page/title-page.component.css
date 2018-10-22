@@ -29,3 +29,8 @@
     z-index : 1;
     font-size : 0.9em;
 }
+
+.carousel img[src="assets/chargement.gif"]
+{
+    height : 100vh;
+}
