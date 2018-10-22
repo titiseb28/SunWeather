@@ -62,7 +62,7 @@ button
     background-color : #000;
     color : #FFF;
     font-weight : bold;
-    transition : all 1s ease-in-out;
+    transition : all 0.5s ease-in-out;
 }
 
 /* Bouton afin de déplier la définition */
