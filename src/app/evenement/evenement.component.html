@@ -1,9 +1,11 @@
+<h2 class="mt-1 offset-md-2 col-md-8 col-12 py-3 rounded titre-page">My events</h2>
+
 <div class="container-fluid">
     <div class=" card-columns">
         <div *ngFor="let event of evenements">
             <div class="card bg-black">
-                <div class="card-header">
-                    {{ event.getNom() }}
+                <div class="card-header text-center">
+                    <h3>{{ event.getNom() }}</h3>
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Last date : {{ event.getDate() }}</h5>

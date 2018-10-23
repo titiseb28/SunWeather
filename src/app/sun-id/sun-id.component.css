@@ -5,12 +5,12 @@
 
 .card 
 {
-    border : 1px solid #c0914f;
+    border : 1px solid white;
 }
 
 .card-header
 {
-    border-bottom : 1px solid #c0914f;
+    border-bottom : 1px solid white;
 }
  
  .ap-align-IDCard {

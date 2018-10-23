@@ -2,7 +2,7 @@
 body
 {
     /*background-image : url('assets/fond.jpg');*/
-	background-image : url('assets/fond_test.png');
+    background-image : url('assets/fond_test.png');
 }
 
 @font-face {
@@ -22,6 +22,7 @@ h1, h2, h3, h4, h5, .card-header
     background-color : black;
     border : 1px solid #C0914F;
     text-transform : uppercase;
+    margin-bottom : 1.5rem; 
 }
 
 .bg-black
