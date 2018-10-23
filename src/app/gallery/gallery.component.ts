@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../api.service';
+import { Gallery } from '../gallery';
 
 @Component({
   selector: 'app-gallery',
@@ -9,13 +10,13 @@ import { ApiService } from '../api.service';
 export class GalleryComponent implements OnInit {
 
   private serviceApi: ApiService;
-  private tabImages: string[];
+  private tabImages: Gallery[];
   public recherche: string;
 
   constructor(param: ApiService) {
     this.serviceApi = param;
     this.tabImages = [];
-    this.recherche = 'earth';
+    this.recherche = 'sun';
   }
 
   ngOnInit() {
@@ -29,14 +30,24 @@ export class GalleryComponent implements OnInit {
       (param: any) => {
         const rep = param.json();
 
-        for (let i = 0 ; i < rep.collection.items.length ; i++) {
-          this.tabImages.push(rep.collection.items[i].links[0].href);
+        for (let i = 0 ; i < rep.collection.items.length && i < 50 ; i++) {
+          let obj: Gallery = new Gallery(rep.collection.items[i].links[0].href);
+          // this.tabImages.push(rep.collection.items[i].links[0].href);
+
+          // Recherche de la grande image (appel d'un json)
+          this.serviceApi.getUrl(rep.collection.items[i].href).subscribe(
+            (param_href: any) => {
+              const p = param_href.json();
+              obj.imgBig = p[1];
+              this.tabImages.push(obj);
+            }
+          );
         }
       }
     );
   }
 
-  public getImages(): string[] {
+  public getImages(): Gallery[] {
     return this.tabImages;
   }
 

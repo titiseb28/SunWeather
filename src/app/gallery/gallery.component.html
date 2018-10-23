@@ -1,14 +1,16 @@
 <div class="container-fluid">
   <div class="row">
+
     <div class="col-12 text-center my-4">
       <input class="mr-2" type="text" [(ngModel)]="recherche" (keyup.enter)="callApi()" />
       <input type="submit" value="Search" (click)="callApi()" />
     </div>
 
     <div class="col-12 col-md-6 col-xl-4" *ngFor="let image of getImages()">
-      <a data-fancybox="gallery" href="{{ image }}">
-        <img class="img-fluid" src="{{ image }}" alt="image from API" />
+      <a data-fancybox="gallery" href="{{ image.imgBig }}">
+        <img class="img-fluid" src="{{ image.imgPreview }}" alt="image from API" />
       </a>
     </div>
+
   </div>
 </div>
