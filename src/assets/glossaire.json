@@ -333,6 +333,11 @@
     "id" : 64,
     "name" : "Solar Panel",
     "description" : "A piece of material that can capture sunlight and turn it into electricity."
+},
+{
+    "id" : 65,
+    "name" : "Solar system",
+    "description" : "A set that includes a star and all of the matter that orbits it, including planets, moons, asteroids, comets, and other objects."
 }
 
 ]
