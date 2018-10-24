@@ -21,8 +21,8 @@
 },
 {
     "id" : 3,
-    "name" : "Ambient solar wind",
-    "description" : "the outflow of the Sun's ionized atmosphere into interplanetary space."
+    "name" : "X-Rays",
+    "description" : "Radiation with lots of energy made by very hot gases, stars, neutron stars, and gas around black holes. X-rays have so much energy they can pass though solid materials. They are part of the electromagnetic spectrum."
 },
 {
     "id" : 4,
@@ -171,7 +171,7 @@
 },
 {
     "id" : 34,
-    "name" : "Exoplanet",
+    "name" : "Gamma rays",
     "description" : "Part of the electromagnetic spectrum, also called gamma radiation. These waves have lots of energy. They come from big events like solar flares and exploding stars."
 },
 {
@@ -206,7 +206,7 @@
 },
 {
     "id" : 41,
-    "name" : "Light year:",
+    "name" : "Light year",
     "description" : "It’s not a year, or an amount of time at all. It’s the distance light travels in one year. It’s the same as 5,878,499,810,000 miles (or 9,460,538,400,000,000 meters). When things are very far away, it’s easier to talk about their distance in light years than millions or billions or trillions of miles."
 },
 {
@@ -261,7 +261,7 @@
 },
 {
     "id" : 52,
-    "name" : "Neutron star:",
+    "name" : "Neutron star",
     "description" : "A very dense star made mostly of neutrons. It has very powerful gravitational force nearby because the whole mass of a star is pulled into one object just a few miles across."
 },
 {
@@ -276,8 +276,8 @@
 },
 {
     "id" : 55,
-    "name" : "Orbit",
-    "description" : "The curved path that a planet, satellite, or spacecraft moves as it circles around anothanotherer object."
+    "name" : "Wave",
+    "description" : "A way energy moves from one place to another. Sometimes waves move materials the way water ripples in a pond move the water. Other times, waves don’t move anything around when they transfer energy. For example, X-rays and other waves on the electromagnetic spectrum don’t make any ripples when they move energy from place to place. We classify waves based on how long their wavelengths are. A wavelength is the distance from peak to peak (or valley to valley) of the wave."
 },
 {
     "id" : 54,
@@ -321,8 +321,8 @@
 },
 {
     "id" : 62,
-    "name" : "Quasar",
-    "description" : "Compact area in the center of a massive galaxy that is around a supermassive black hole. They are some of the brightest objects in the universe and can be observed across the entire electromagnetic spectrum."
+    "name" : "Visible light",
+    "description" : "The part of the electromagnetic spectrum that we can see with our eyes. It’s all the colors of the rainbow."
 },
 {
     "id" : 63,
