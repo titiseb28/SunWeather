@@ -10,9 +10,18 @@ body
     src : url('/assets/font/Optimus.otf') format('truetype');
 }
 
+@font-face {
+   font-family: 'Orbitron';
+   src: url('/assets/font/orbitron.medium.ttf') format('truetype');
+}
+
 h1, h2, h3, h4, h5, .card-header
 {
-    font-family : 'Optimus' !important; 
+    font-family : 'Optimus' !important;
+}
+
+p, li, .card-text p, .card q, .card .definition, cite, blockquote, input {
+   font-family: 'Orbitron' !important;
 }
 
 .titre-page
@@ -22,7 +31,7 @@ h1, h2, h3, h4, h5, .card-header
     background-color : black;
     border : 1px solid #C0914F;
     text-transform : uppercase;
-    margin-bottom : 1.5rem; 
+    margin-bottom : 1.5rem;
 }
 
 .bg-black

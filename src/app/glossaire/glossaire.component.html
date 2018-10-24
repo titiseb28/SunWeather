@@ -2,9 +2,13 @@
 
 <div id="accordion" class="container">
 
+  <div class="col-12 text-center my-4">
+    <input type="text" [(ngModel)]="recherche" placeholder="recherche" />
+  </div>
+
   <div class="card-columns">
 
-    <div *ngFor="let definition of definitions">
+    <div *ngFor="let definition of definitions | glossarySort:recherche">
       <div class="card bg-black text-white">
         <div class="card-header bg-black" id="{{ 'heading' + definition.id }}" data-toggle="collapse" [attr.data-target]="'#collapse' + definition.id" aria-expanded="true" attr.aria-controls="{{ 'collapse' + definition.id }}">
             <h3 class="mb-0">

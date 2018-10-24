@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -18,6 +19,9 @@ import { SunIdComponent } from './sun-id/sun-id.component';
 import { EvenementComponent } from './evenement/evenement.component';
 import { ApiService } from './api.service';
 import { HistoryComponent } from './history/history.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { GalleryService } from './gallery.service';
+import { GlossarySortPipe } from './glossary-sort.pipe';
 
 @NgModule({
   declarations: [
@@ -29,12 +33,15 @@ import { HistoryComponent } from './history/history.component';
     FooterComponent,
     SunIdComponent,
     EvenementComponent,
-    HistoryComponent
+    HistoryComponent,
+    GalleryComponent,
+    GlossarySortPipe
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     HttpModule,
+    FormsModule,
     NgbModule.forRoot(),
     RouterModule.forRoot([
       {
@@ -60,10 +67,14 @@ import { HistoryComponent } from './history/history.component';
       {
         path : 'events',
         component : EvenementComponent
+      },
+      {
+        path : 'gallery',
+        component : GalleryComponent
       }
     ])
   ],
-  providers: [GlossaireService, ApodService, ApiService],
+  providers: [GlossaireService, ApodService, ApiService, GalleryService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
