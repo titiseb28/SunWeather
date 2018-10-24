@@ -21,6 +21,7 @@ import { ApiService } from './api.service';
 import { HistoryComponent } from './history/history.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { GalleryService } from './gallery.service';
+import { GlossarySortPipe } from './glossary-sort.pipe';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { GalleryService } from './gallery.service';
     SunIdComponent,
     EvenementComponent,
     HistoryComponent,
-    GalleryComponent
+    GalleryComponent,
+    GlossarySortPipe
   ],
   imports: [
     BrowserModule,

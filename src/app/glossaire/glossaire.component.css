@@ -1,3 +1,12 @@
+input
+{
+    background-color : black;
+    color : white;
+    border : 1px solid #C0914F;
+    padding : 0.5rem;
+    font-size : 1.5rem;
+}
+
 .definition
 {
     /*font-family: "Times New Roman", Times, sans-serif;*/

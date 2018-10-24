@@ -19,10 +19,12 @@ export class GlossaireComponent implements OnInit {
 
   public definitions: Glossaire[];
   private glossaireService: GlossaireService;
+  public recherche: string;
 
   constructor(glossaire: GlossaireService) {
     this.glossaireService = glossaire;
     this.definitions = [];
+    this.recherche = '';
   }
 
   ngOnInit() {
