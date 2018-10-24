@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, .card-header
     font-family : 'Optimus' !important;
 }
 
-p, li, .card-text p, .card q, .card .definition, cite, blockquote {
+p, li, .card-text p, .card q, .card .definition, cite, blockquote, input {
    font-family: 'Orbitron' !important;
 }
 
