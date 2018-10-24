@@ -1,5 +1,23 @@
 .video {text-align: center;width:480px;margin-left:auto;margin-right:auto;margin-bottom:35px;}
 
+.mission-title
+{
+	list-style-type : disc;
+	font-size : 1.2rem;
+	font-weight : bold;
+	text-decoration : underline;   
+}
+
+.gras 
+{
+	font-weight : bold; 
+}
+
+.card .mission
+{
+	margin-bottom : 8%; 
+}
+
 .bg-black
 {
     background-color : black;
@@ -8,7 +26,16 @@
 .card 
 {
     border : 1px solid #c0914f;
-    text-align : justify;
+	text-align : justify;
+	margin-bottom : 3%;
+}
+
+@media only screen and (max-width: 980px)
+{
+	.card
+	{
+		text-align : left;
+	}
 }
 
 .card-header
@@ -18,13 +45,15 @@
 
 .card-header h3
 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-bottom: 0rem;
 }
 
 .card img
 {
-    margin : 1.5%;
+	margin : 1.5%;
+	max-width : 500px;
+	max-height : 500px;
 }
 
 /* Vidéo responsive */
@@ -49,4 +78,11 @@
 .video-wrapper {
 	width: 600px;
 	max-width: 100%;
+	margin : 0 auto;
+}
+
+.btn
+{
+	background-color : #c0914f;
+	color : white; 
 }

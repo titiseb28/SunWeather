@@ -15,7 +15,7 @@ body
    src: url('/assets/font/orbitron.medium.ttf') format('truetype');
 }
 
-h1, h2, h3, h4, h5, .card-header
+h1, h2, h3, h4, h5, .card-header, .mission-title
 {
     font-family : 'Optimus' !important;
 }
@@ -38,4 +38,9 @@ p, li, .card-text p, .card q, .card .definition, cite, blockquote, input {
 {
     color : #FFFFFF !important;
     background-color : #000000 !important;
+}
+
+p
+{
+    line-height : 2rem; 
 }

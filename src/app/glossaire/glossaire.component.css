@@ -41,7 +41,7 @@ input
 {
     opacity: 1;
     border-color : #C0914F;
-    box-shadow : 2px 2px 8px white, -2px -2px 8px white; 
+    box-shadow : 2px 2px 8px #C0914F, -2px -2px 8px #C0914F; 
 }
 
 .break-word

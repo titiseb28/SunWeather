@@ -1,7 +1,7 @@
 <h2 class="mt-1 offset-md-2 col-md-8 col-12 titre-page py-3 rounded">Glossary</h2>
 
 <div class="col-12 text-center my-4">
-  <input type="text" [(ngModel)]="recherche" placeholder="recherche" />
+  <input type="text" [(ngModel)]="recherche" placeholder="search" />
 </div>
 
 <div id="accordion" class="container">
@@ -20,7 +20,7 @@
 
         <div id="{{ 'collapse' + definition.id }}" class="collapse bg-light-black" attr.aria-labelledby="{{ 'heading' + definition.id }}" data-parent="#accordion">
           <div class="card-body definition">
-            {{ definition.description }}
+            <p>{{ definition.description }}</p>
           </div>
         </div>
       </div>

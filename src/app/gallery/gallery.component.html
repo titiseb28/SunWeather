@@ -6,13 +6,11 @@
 </div>
 
 <div class="container-fluid">
-  <div class="row">
-
-    <div class="col-12 col-md-6 col-xl-4" *ngFor="let image of getImages()">
+  <div class="card-columns">
+    <div class="card" *ngFor="let image of getImages()">
       <a data-fancybox="gallery" href="{{ image.imgBig }}">
         <img class="img-fluid" src="{{ image.imgPreview }}" alt="image from API" />
       </a>
     </div>
-
   </div>
 </div>
