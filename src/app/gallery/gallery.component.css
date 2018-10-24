@@ -3,8 +3,15 @@ input
     background-color : black;
     color : white;
     border : 1px solid #C0914F;
-    padding : 0.5rem;
+    padding : 1rem;
     font-size : 1.5rem;
+}
+
+input:focus
+{
+    background-color : black;
+    color : white;
+    border : 1px solid #C0914F;
 }
 
 img

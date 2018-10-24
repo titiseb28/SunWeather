@@ -7,6 +7,13 @@ input
     font-size : 1.5rem;
 }
 
+input:focus
+{
+    background-color : black;
+    color : white;
+    border : 1px solid #C0914F;
+}
+
 .definition
 {
     /*font-family: "Times New Roman", Times, sans-serif;*/

@@ -1,7 +1,7 @@
 <h2 class="mt-1 offset-md-2 col-md-8 col-12 titre-page py-3 rounded">Gallery</h2>
 
-<div class="col-12 text-center my-4">
-  <input class="mr-2" type="text" [(ngModel)]="recherche" (keyup.enter)="callApi()" />
+<div class="container text-center my-4">
+  <input class="form-control mb-2" type="text" [(ngModel)]="recherche" (keyup.enter)="callApi()" />
   <input type="submit" value="Search" (click)="callApi()" />
 </div>
 

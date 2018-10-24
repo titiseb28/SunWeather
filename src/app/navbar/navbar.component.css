@@ -12,7 +12,6 @@
 }
 .bg-black {
     background-color: #000;
-    opacity: 0.7;
     transition : all 1s ease-in;
 }
 

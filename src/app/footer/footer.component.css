@@ -1,5 +1,10 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
+p
+{
+	line-height : 1rem;
+}
+
 /* hauteur du footer */
 section {
     /* padding: 20px 0; */
@@ -7,8 +12,7 @@ section {
 
 /* couleur fond de page */
 #footer {
-    background: #000000 !important;
-    line-height : 50%; 
+    background: #000000 !important; 
 }
 
 
