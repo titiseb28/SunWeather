@@ -35,13 +35,13 @@
 .card-header
 {
     font-weight : bold;
-
     border-bottom : 1px solid white;
     transition : border-bottom 0.5s ease-in-out;
 }
 
 .card-header h3 {
     font-size : 1.6rem;
+    margin-bottom : 0;
 }
 
 .card:hover
