@@ -31,7 +31,8 @@
 .card:hover, .card:hover .card-header
 {
     opacity: 1;
-    border-color : #C0914F; 
+    border-color : #C0914F;
+    box-shadow : 2px 2px 8px white, -2px -2px 8px white; 
 }
 
 .break-word
