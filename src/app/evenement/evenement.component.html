@@ -20,7 +20,7 @@
                         Definition : <q>{{ event.getDefinition() }}</q>
                     </p>
 
-                    <a class="d-block d-md-none" target="_blank" [href]="event.getImageUrl()">Lien vers image</a>
+                    <a class="d-block d-md-none"  data-fancybox="gallery" target="_blank" [href]="event.getImageUrl()">{{ event.getNom() }} image</a>
                 </div>
             </div>
         </div>

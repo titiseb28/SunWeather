@@ -28,6 +28,7 @@
 
 .card a
 {
+   font-family: 'Orbitron' !important;
     text-align : center;
     color : #c0914f;
 }
