@@ -7,6 +7,13 @@
     margin-left: 0.5rem;
 }
 
+/*.btn:active, .btn:focus, .btn:active:focus, .btn:focus:active, .btn-link:active, .btn-link:focus, .btn-link:active:focus, .btn-link:focus:active
+{
+    outline : none !important;
+    box-shadow: none !important;
+    border : none !important;
+}*/
+
 .nav-link {
    padding: 0;
 }
