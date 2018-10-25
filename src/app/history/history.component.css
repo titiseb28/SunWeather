@@ -9,9 +9,17 @@ h1 {
 /* Style des cartes */
 .card
 {
-    opacity: 0.8;
-    color : white;
-    border : 1px solid white;   
+    background: rgba(0, 0, 0, 0.7);
+    border : 1px solid white;
+    color: white;
+    padding: 0;
+    transition: all 0.5s ease-out;
+}
+
+.card:hover
+{
+    background: rgba(0, 0, 0, 1);
+    transition: all 0.5s ease-out;
 }
 
 
@@ -23,5 +31,5 @@ h1 {
 .timeline-img {
     height: 100%;
     width: 10px;
-    
+
 }

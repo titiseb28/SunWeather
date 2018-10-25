@@ -3,24 +3,24 @@
 <div class="container-fluid">
     <div class=" card-columns">
         <div *ngFor="let event of evenements">
-            <div class="card bg-black">
-                <div class="card-header text-center">
+            <div class="card">
+                <div class="card-header text-center text-white">
                     <h3>{{ event.getNom() }}</h3>
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Last date : {{ event.getDate() }}</h5>
+                    <h5 class="card-title text-white">Last date : {{ event.getDate() }}</h5>
 
                     <img class="d-none d-md-inline float-right img-fluid" src="{{ event.getImageUrl() }}" />
 
-                    <p class="card-text">
+                    <p class="card-text text-white">
                         Details : {{ event.getDetails() }}
                     </p>
 
-                    <p class="card-text">
+                    <p class="card-text text-white">
                         Definition : <q>{{ event.getDefinition() }}</q>
                     </p>
 
-                    <a class="d-block d-md-none" target="_blank" [href]="event.getImageUrl()">Lien vers image</a>
+                    <a class="d-block d-md-none"  data-fancybox="gallery" target="_blank" [href]="event.getImageUrl()">{{ event.getNom() }} image</a>
                 </div>
             </div>
         </div>
