@@ -34,3 +34,11 @@
 {
     height : 100vh;
 }
+
+@media screen and (orientation: portrait) {
+    .carousel 
+    {
+        height : 55vh;
+        overflow:hidden;
+    }
+  }
