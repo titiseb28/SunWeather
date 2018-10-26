@@ -33,3 +33,45 @@ h1 {
     width: 10px;
 
 }
+
+@media (min-width: 1px) {
+
+    .card {
+      background: rgb(0, 0, 0);
+      margin-bottom : 2rem;
+      border : 1px solid #c0914f;
+   }
+
+   .card-header {
+      border-bottom: 1px solid #c0914f;
+   }
+}
+
+
+@media (min-width: 1200px) {
+
+
+    .card
+    {
+        margin-bottom : 2rem;
+        /*text-align : justify;*/
+        background: rgba(0, 0, 0, 0.7);
+        border : 1px solid white;
+        transition : all 0.5s ease-in;
+    }
+
+    .card:hover
+    {
+        background: rgba(0, 0, 0, 1);
+        border : 1px solid #c0914f;
+    }
+
+    .card-header {
+      border-bottom: 1px solid white;
+   }
+
+    .card:hover .card-header
+    {
+        border-bottom : 1px solid #c0914f;
+    }
+}

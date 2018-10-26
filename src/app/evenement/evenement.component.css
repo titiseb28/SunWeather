@@ -1,12 +1,3 @@
-.card
-{
-    margin-bottom : 2rem;
-    /*text-align : justify;*/
-    background: rgba(0, 0, 0, 0.7);
-    border : 1px solid white;
-    transition : all 0.5s ease-in;
-}
-
 .card p
 {
     font-family : 'Times New Roman', Times, serif;
@@ -39,16 +30,6 @@
     margin-bottom : 0;
 }
 
-.card:hover
-{
-    background: rgba(0, 0, 0, 1);
-    border : 1px solid #c0914f;
-}
-
-.card:hover .card-header
-{
-    border-bottom : 1px solid #c0914f;
-}
 
 @media (min-width: 1px) {
     .card-columns {
@@ -56,6 +37,16 @@
         -moz-column-count: 1;
         column-count: 1;
     }
+
+    .card {
+      background: rgb(0, 0, 0);
+      margin-bottom : 2rem;
+      border : 1px solid #c0914f;
+   }
+
+   .card-header {
+      border-bottom: 1px solid #c0914f;
+   }
 }
 
 @media (min-width: 768px) {
@@ -63,7 +54,7 @@
         -webkit-column-count: 2;
         -moz-column-count: 2;
         column-count: 2;
-    }
+     }
 }
 
 @media (min-width: 1200px) {
@@ -71,5 +62,29 @@
         -webkit-column-count: 3;
         -moz-column-count: 3;
         column-count: 3;
+    }
+
+    .card
+    {
+        margin-bottom : 2rem;
+        /*text-align : justify;*/
+        background: rgba(0, 0, 0, 0.7);
+        border : 1px solid white;
+        transition : all 0.5s ease-in;
+    }
+
+    .card:hover
+    {
+        background: rgba(0, 0, 0, 1);
+        border : 1px solid #c0914f;
+    }
+
+    .card-header {
+      border-bottom: 1px solid white;
+   }
+
+    .card:hover .card-header
+    {
+        border-bottom : 1px solid #c0914f;
     }
 }
