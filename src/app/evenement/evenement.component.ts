@@ -28,7 +28,7 @@ export class EvenementComponent implements OnInit {
       'https://kentronintellectresearchvault.files.wordpress.com/2013/04/solar-dynamic-thermal-magnetics.jpg'));
     this.evenements.push(new Evenement('Magnetopause Crossing (MPC)', '2018-10-05', '', '',
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjXh1Qu0ENHLSnnjjawNem6AV_RBojLT0YoijWnQlljsLe7Wsf'));
-    this.evenements.push(new Evenement('Hight Speed Stream (HSS)', '2018-10-05', '', '',
+    this.evenements.push(new Evenement('High Speed Stream (HSS)', '2018-10-05', '', '',
       'http://www.heartcom.org/CoronalHole.png'));
 
 
