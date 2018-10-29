@@ -1,0 +1,457 @@
+[
+{
+    "id" : 0,
+    "name" : "Ambient solar wind",
+    "description" : "The undisturbed outflow of the Sun's ionized atmosphere into interplanetary space."
+},
+{
+    "id" : 7,
+    "name" : "Auroral activity",
+    "description" : "Usually refers to visible aurora and the particles that create them, but may also refer to electrical currents that flow in the auroral region. One measure of auroral activity is hemispheric power."
+},
+{
+    "id" : 1,
+    "name" : "ACE",
+    "description" : "The Advanced Composition Explorer (ACE) spacecraft is positioned on the Earth-Sun line and provides measurements of the solar wind plasma and radiation conditions that will impact Earth."
+},
+{
+    "id" : 2,
+    "name" : "Active regions",
+    "description" : "A disturbed volume of the Sun's atmosphere that often consists of (from bottom to top) sunspots, plage, prominences, and hot magnetized loops. Active regions may release significant amounts of energy during magnetic eruptions that produce coronal mass ejections and/or flares."
+},
+{
+    "id" : 3,
+    "name" : "X-Rays",
+    "description" : "Radiation with lots of energy made by very hot gases, stars, neutron stars, and gas around black holes. X-rays have so much energy they can pass though solid materials. They are part of the electromagnetic spectrum."
+},
+{
+    "id" : 4,
+    "name" : "AU - Astronomic Unit",
+    "description" : "1 Astronomical Unit (AU) is equal to the average distance from the Earth to the Sun. This is a convenient measure of distances in the solar system."
+},
+{
+    "id" : 5,
+    "name" : "Aurora",
+    "description" : "Transient displays of light, often displaying as moving curtains and rays, at high latitudes associated with geomagnetic disturbances."
+},
+{
+    "id" : 6,
+    "name" : "Auroral region",
+    "description" : "Oval-shaped, high-latitude zone centered on the geomagnetic pole, in which aurora are most visible."
+},
+{
+    "id" : 90,
+    "name" : "Eclipse",
+    "description" : "Partial or total blocking of light from a celestial body as it passes behind another body. In a solar eclipse the moon passes between the Earth and Sun blocking the Sun's light. In a lunar eclipse the earth passes between the moon and the sun during a full moon."
+},
+{
+    "id" : 8,
+    "name" : "Auroral boundary",
+    "description" : "The high and low latitude edges of the auroral zone, typically 72 deg (poleward) and 62 deg (equatorward)."
+},
+{
+    "id" : 9,
+    "name" : "Auroral precipitation",
+    "description" : "Ionized particles that fall, or are accelerated, into Earth's atmosphere to create the aurora and aid in the flow of electrical current."
+},
+{
+    "id" : 10,
+    "name" : "Cadence",
+    "description" : "In science, the rate at which an instrument, usually an imager, records a data."
+},
+{
+    "id" : 11,
+    "name" : "Carrington event",
+    "description" : "An extremely powerful solar flare followed by intense geomagnetic activity in late August and early September 1859."
+},
+{
+    "id" : 12,
+    "name" : "Carrington rotation",
+    "description" : "A full rotation of the Sun with a period of about 27 days."
+},
+{
+    "id" : 13,
+    "name" : "Chromosphere",
+    "description" : "The region of the Sun’s atmosphere that exists just above the photosphere. The chromosphere is visible with a special narrow band telescope the views the emissions of Hydrogen-alpha."
+},
+{
+    "id" : 14,
+    "name" : "Corotating Interaction Region (CIR)",
+    "description" : "Corotating interaction regions are zones of enhanced solar wind plasma density and interplanetary magnetic field that result from a region of slow solar wind (ahead) being compressed by fast solar wind behind it. In Earth's reference frame these enhanced regions sweep by, often creating small to moderate geomagnetic disturbances for a few to tens of hours."
+},
+{
+    "id" : 15,
+    "name" : "CME Coronal Mass Ejection",
+    "description" : "Coronal Mass Ejection - An eruption in the outer solar atmosphere that sends billions of tons of magnetized plasma clouds into interplanetary space. When traveling at high speeds these ejections create shocks in the solar wind. Earth-intercept of a CME is often followed by a geomagnetic storm."
+},
+{
+    "id" : 16,
+    "name" : "CME angular width",
+    "description" : "the full angular width of the CME, a measure of the size of a coronal mass ejection as it propagates away from the Sun."
+},
+{
+    "id" : 17,
+    "name" : "Asteroid",
+    "description" : "Rocks floating around in space. Some are the size of a pick-up truck. Others are hundreds of miles across."
+},
+{
+    "id" : 18,
+    "name" : "Atmosphere",
+    "description" : "The gases held by gravity around Earth and around other planets. ATMOSPHERE can also be used to talk about gases around stars."
+},
+{
+    "id" : 19,
+    "name" : "Atom",
+    "description" : "The basic building block of matter. It is made of protons, neutrons, and electrons. There are many different kinds of atoms. For example, the simplest atom with one proton and one electron is a hydrogen atom. An atom with six protons, six neutrons, and six electrons is a carbon atom."
+},
+{
+    "id" : 20,
+    "name" : "Aurora australis",
+    "description" : "Bright glows and bands of light that appear in the skies at night near the South Pole. They are also called the southern lights."
+},
+{
+    "id" : 21,
+    "name" : "Aurora borealis",
+    "description" : "Bright glows and bands of light that appear in the skies at night near the North Pole. They are also called the northern lights."
+},
+{
+    "id" : 22,
+    "name" : "Black hole",
+    "description" : "A place in space where matter and light cannot escape if they fall in."
+},
+{
+    "id" : 23,
+    "name" : "Comet",
+    "description" : "An icy rock that lets off gas and dust, which may form tails when it is flying close to a sun."
+},
+{
+    "id" : 24,
+    "name" : "Constellation",
+    "description" : "A group of stars in the sky. They're often named after an animal, object, or person. The stars form certain patterns based on where you are. We have one view of stars here on Earth, but from another solar system or galaxy, the constellations would look different."
+},
+{
+    "id" : 25,
+    "name" : "Corona",
+    "description" : "The outer atmosphere of a star."
+},
+{
+    "id" : 26,
+    "name" : "Cosmos",
+    "description" : "The universe seen as an orderly, harmonious whole."
+},
+{
+    "id" : 27,
+    "name" : "Crater",
+    "description" : "A large, bowl-shaped dent in the ground. They can be caused by an explosion or the impact of a meteorite."
+},
+{
+    "id" : 28,
+    "name" : "Dwarf planet",
+    "description" : "Objects that are round and orbit the sun, just like planets do. But unlike planets, dwarf planets are not able to clear their path around the sun. That means there are other objects orbiting at roughly the same distance from the sun. A dwarf planet is much smaller than a planet (smaller even than Earth's moon), but it is not a moon. Pluto is the best known of the dwarf planets."
+},
+{
+    "id" : 29,
+    "name" : "El Niño",
+    "description" : " A weather condition that sometimes occurs in the Pacific Ocean. It is so big that it affects weather all over the world. It starts with unusually warm water in the Pacific Ocean near the equator."
+},
+{
+    "id" : 30,
+    "name" : "Electromagnetic Spectrum",
+    "description" : "The name for all the different kinds of light and energy in the universe. This includes radio waves, microwaves, infrared radiation, visible light, ultraviolet light, X-rays, and gamma rays."
+},
+{
+    "id" : 31,
+    "name" : "Equator",
+    "description" : "The circle around a planet or moon that is the same distance from its north pole and its south pole."
+},
+{
+    "id" : 32,
+    "name" : "Exoplanet",
+    "description" : "A planet that freely floats between stars or one that orbits a star outside our solar system."
+},
+{
+    "id" : 33,
+    "name" : "Galaxy",
+    "description" : "A collection of thousands to billions of stars held together by gravity. The galaxy we live in is called the Milky Way."
+},
+{
+    "id" : 34,
+    "name" : "Gamma rays",
+    "description" : "Part of the electromagnetic spectrum, also called gamma radiation. These waves have lots of energy. They come from big events like solar flares and exploding stars."
+},
+{
+    "id" : 35,
+    "name" : "Gas",
+    "description" : "A loose collection of atoms moving around each other."
+},
+{
+    "id" : 36,
+    "name" : "GPS",
+    "description" : "This stands for Global Positioning System. It’s a system that uses satellites, ground stations, and receivers to tell you exactly where you are on Earth."
+},
+{
+    "id" : 37,
+    "name" : "Gravity",
+    "description" : "A force that pulls matter together."
+},
+{
+    "id" : 38,
+    "name" : "Greenhouse gas",
+    "description" : "Gases in the atmosphere that trap heat from the sun. Some greenhouse gases are carbon dioxide, methane, water vapor, and nitrous oxide."
+},
+{
+    "id" : 39,
+    "name" : "Kuiper Belt",
+    "description" : "A donut-shaped ring of icy objects beyond the orbit of Neptune. Pluto is the best known of these icy worlds."
+},
+{
+    "id" : 40,
+    "name" : "La Niña",
+    "description" : "The opposite of El Niño. La Niña happens because of unusually cold sea surface temperatures across the east-central Equatorial Pacific. During a La Niña year, winter temperatures are warmer than normal in the Southeast and cooler than normal in the Northwest United States."
+},
+{
+    "id" : 41,
+    "name" : "Light year",
+    "description" : "It’s not a year, or an amount of time at all. It’s the distance light travels in one year. It’s the same as 5,878,499,810,000 miles (or 9,460,538,400,000,000 meters). When things are very far away, it’s easier to talk about their distance in light years than millions or billions or trillions of miles."
+},
+{
+    "id" : 42,
+    "name" : "Magnetic field",
+    "description" : "The space around a magnet where the magnetic force is active. Earth has a magnetic field and its extension into space helps protect us from space weather."
+},
+{
+    "id" : 43,
+    "name" : "Mass",
+    "description" : "The amount of matter something is made of."
+},
+{
+    "id" : 44,
+    "name" : "Matter",
+    "description" : "The stuff that everything is made of. Atoms are a tiny bit of matter. Big planets have lots of matter. Even you are made of matter!"
+},
+{
+    "id" : 45,
+    "name" : "Meteor",
+    "description" : "The streak of light caused when a meteoroid enters a planet’s atmosphere and starts to burn from the heat of friction."
+},
+{
+    "id" : 46,
+    "name" : "Meteorite",
+    "description" : "A meteoroid that lands on the surface of a planet."
+},
+{
+    "id" : 47,
+    "name" : "Meteoroid",
+    "description" : "A planet that freely floats between stars or one that orbits a star outside our solar system."
+},
+{
+    "id" : 48,
+    "name" : "Microwaves",
+    "description" : "Part of the electromagnetic spectrum. These waves of energy are made by stars, the clouds of gas between stars, and supernovae. There is also something called 'cosmic microwave background radiation'. It’s all over the universe, and scientists study it to learn how the universe began."
+},
+{
+    "id" : 49,
+    "name" : "Molecule",
+    "description" : "The smallest unit of a substance that still acts like the main substance. A molecule can be a single atom or a group of atoms. Water is a substance, and one molecule of water is made of two hydrogen atoms and one oxygen atom, which we write as H2O. That molecule of water still has the same properties as a glass of water. But if you split it into hydrogen and oxygen, it’s not water any more."
+},
+{
+    "id" : 50,
+    "name" : "Moon",
+    "description" : "A natural object that travels around a bigger natural object. Planets can have moons. Dwarf planets can have moons. Even some asteroids have moons! Astronomers usually call them satellites or natural satellites."
+},
+{
+    "id" : 51,
+    "name" : "Nebula",
+    "description" : "A cloud of dust or gas found between stars."
+},
+{
+    "id" : 52,
+    "name" : "Neutron star",
+    "description" : "A very dense star made mostly of neutrons. It has very powerful gravitational force nearby because the whole mass of a star is pulled into one object just a few miles across."
+},
+{
+    "id" : 53,
+    "name" : "Oort Cloud",
+    "description" : "A spherical shell around our solar system. It may contain more than a trillion icy bodies. Long-period comets (which take more than 200 years to orbit the sun) come from the Oort Cloud."
+},
+{
+    "id" : 54,
+    "name" : "Orbit",
+    "description" : "The curved path that a planet, satellite, or spacecraft moves as it circles around another object."
+},
+{
+    "id" : 55,
+    "name" : "Wave",
+    "description" : "A way energy moves from one place to another. Sometimes waves move materials the way water ripples in a pond move the water. Other times, waves don’t move anything around when they transfer energy. For example, X-rays and other waves on the electromagnetic spectrum don’t make any ripples when they move energy from place to place. We classify waves based on how long their wavelengths are. A wavelength is the distance from peak to peak (or valley to valley) of the wave."
+},
+{
+    "id" : 56,
+    "name" : "Ozone layer",
+    "description" : "A part of Earth’s atmosphere that absorbs lots of the sun’s ultraviolet radiation. It is made of a gas called ozone, which is a molecule of three oxygen atoms."
+},
+{
+    "id" : 57,
+    "name" : "Planet",
+    "description" : "A large body in outer space that circles around the sun or another star."
+},
+{
+    "id" : 58,
+    "name" : "Pulsar",
+    "description" : "An object, thought to be a rapidly rotating neutron star. It releases short pulses of radio waves and other electromagnetic radiation."
+},
+{
+    "id" : 59,
+    "name" : "Quasar",
+    "description" : "Compact area in the center of a massive galaxy that is around a supermassive black hole. They are some of the brightest objects in the universe and can be observed across the entire electromagnetic spectrum."
+},
+{
+    "id" : 60,
+    "name" : "Radiation",
+    "description" : "The energy or particles released from sources like radioactive materials, explosions, and chemical reactions. This includes energy waves on the electromagnetic spectrum."
+},
+{
+    "id" : 61,
+    "name" : "Radio waves",
+    "description" : "Part of the electromagnetic spectrum. Radio waves are around us here on Earth, and they’re out in space too. These waves are low energy. We use them every time we listen to the radio. They’re used to talk to satellites, too. They are also common in outer space, since they are sent out by forming stars, pulsars, supernovae, the sun, and even colliding galaxies."
+},
+{
+    "id" : 62,
+    "name" : "Radioactive",
+    "description" : "Compact area in the center of a massive galaxy that is around a supermassive black hole. They are some of the brightest objects in the universe and can be observed across the entire electromagnetic spectrum."
+},
+{
+    "id" : 63,
+    "name" : "Satellite",
+    "description" : "Compact area in the center of a massive galaxy that is around a supermassive black hole. They are some of the brightest objects in the universe and can be observed across the entire electromagnetic spectrum."
+},
+{
+    "id" : 64,
+    "name" : "Visible light",
+    "description" : "The part of the electromagnetic spectrum that we can see with our eyes. It’s all the colors of the rainbow."
+},
+{
+    "id" : 65,
+    "name" : "Solar flare",
+    "description" : "A burst of energy and particles from the sun. It releases gases, radiation waves, and magnetic storms."
+},
+{
+    "id" : 66,
+    "name" : "Solar Panel",
+    "description" : "A piece of material that can capture sunlight and turn it into electricity."
+},
+{
+    "id" : 67,
+    "name" : "D-region",
+    "description" : "The lowest layer of the ionosphere, only existing during daylight hours. HF absorption is strongest in this region."
+},
+{
+    "id" : 68,
+    "name" : "Filaments",
+    "description" : "Arcs of plasma on the sun’s surface. Filaments observed on the edge of the sun are known as prominences. Occasionally, a filament may burst, emitting bright plasma from the sun’s surface. This is known as a 'filament eruption'."
+},
+{
+    "id" : 69,
+    "name" : "Geomagnetic field",
+    "description" : "The magnetic field around the Earth. Geomagnetic field lines can be approximated to that of a simple bar magnet."
+},
+{
+    "id" : 70,
+    "name" : "Geomagnetic storm",
+    "description" : "A temporary disturbance in the Earth’s magnetosphere caused by a large burst of solar wind which interferes with the Earth’s magnetic field."
+},
+{
+    "id" : 71,
+    "name" : "Heliocentric Orbit",
+    "description" : "A temporary disturbance in the Earth’s magnetosphere caused by a large burst of solar wind which interferes with the Earth’s magnetic field."
+},
+{
+    "id" : 72,
+    "name" : "HF Comms",
+    "description" : "Communication systems relying on the use of high frequency (HF) radio waves."
+},
+{
+    "id" : 73,
+    "name" : "Ionosphere",
+    "description" : "The region of the Earth's atmosphere exposed to ionising radiation. It ranges from 60km to 1,000km in altitude."
+},
+{
+    "id" : 74,
+    "name" : "L1 orbit",
+    "description" : "A point on the Sun-Earth line, 1.5 million km from the Earth. Gravitational stability in this region results in a stable orbit."
+},
+{
+    "id" : 75,
+    "name" : "Magnetogram",
+    "description" : "An image displaying the strength and location of magnetic field regions on the sun."
+},
+{
+    "id" : 76,
+    "name" : "MOSWOC",
+    "description" : "Met Office Space Weather Operations Centre."
+},
+{
+    "id" : 77,
+    "name" : "NOAA",
+    "description" : "National Oceanic and Atmospheric Administration."
+},
+{
+    "id" : 78,
+    "name" : "Plage",
+    "description" : "NBright and hot patches in the Sun's chromosphere. Plage are associated with concentrations of magnetic fields and sources of strong ultraviolet radiation."
+},
+{
+    "id" : 79,
+    "name" : "Plasma",
+    "description" : "A super-heated, ionised gas of charged particles, accounting for 99% of all visible matter in the Universe."
+},
+{
+    "id" : 80,
+    "name" : "Protons",
+    "description" : "Positively charged subatomic particles."
+},
+{
+    "id" : 81,
+    "name" : "Planetary system",
+    "description" : "The Sun has eight known planets. This includes four terrestrial planets (Mercury, Venus, Earth, and Mars), two gas giants (Jupiter and Saturn), and two ice giants (Uranus and Neptune). The Solar System also has at least five dwarf planets, an asteroid belt, numerous comets, and a large number of icy bodies which lie beyond the orbit of Neptune."
+},
+{
+    "id" : 82,
+    "name" : "Radio blackout",
+    "description" : "During a large space weather event, the ionosphere may start to absorb HF radiation instead of reflecting it. This causes problems with communication systems."
+},
+{
+    "id" : 83,
+    "name" : "Solar cycle",
+    "description" : "The 11-year periodic change in the sun’s activity, including changes in the levels of radiation and solar wind emitted."
+},
+{
+    "id" : 84,
+    "name" : "Solar wind",
+    "description" : "The outward flow of charged particles (primarily electrons and protons) from the sun."
+},
+{
+    "id" : 85,
+    "name" : "Sunspot",
+    "description" : "A region on the sun’s surface with a concentrated magnetic field, resulting in lower temperatures and a darker colour."
+},
+{
+    "id" : 86,
+    "name" : "SWPC",
+    "description" : "Space Weather Prediction Centre, NOAA."
+},
+{
+    "id" : 87,
+    "name" : "X-Ray Burst",
+    "description" : "A burst in high energy electromagnetic radiation from the sun, causing radio blackouts on Earth."
+},
+{
+    "id" : 88,
+    "name" : "Sun",
+    "description" : "The Sun is the star at the center of the Solar System. It is a nearly perfect sphere of hot plasma,with internal convective motion that generates a magnetic field via a dynamo process. It is by far the most important source of energy for life on Earth. Its diameter is about 1.39 million kilometers, i.e. 109 times that of Earth, and its mass is about 330,000 times that of Earth, accounting for about 99.86% of the total mass of the Solar System. About three quarters of the Sun's mass consists of hydrogen (~73%); the rest is mostly helium (~25%), with much smaller quantities of heavier elements, including oxygen, carbon, neon, and iron."
+},
+{
+    "id" : 89,
+    "name" : "Spicule",
+    "description" : "A small jet of gas from the chromosphere to the corona that are approximately 1000km wide and 10,000km tall and change rapidly with a life span from 5 to 15 minutes."
+}
+]
