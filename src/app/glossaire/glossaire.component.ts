@@ -9,11 +9,6 @@ import { Glossaire } from '../glossaire';
   styleUrls: ['./glossaire.component.css']
 })
 
-/* Ajouter dans le footer de la carte (a crée)
-  Un lien vers une image lié à la définition
-  Image trouvé via api de recherche d'image */
-
-/* Trouver une police d'écriture */
 
 export class GlossaireComponent implements OnInit {
 

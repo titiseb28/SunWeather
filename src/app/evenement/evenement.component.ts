@@ -83,9 +83,7 @@ export class EvenementComponent implements OnInit {
       (param: any) => {
         const repJs = param.json();
         this.evenements[2].setDate(repJs[repJs.length - 1].beginTime);
-        // this.evenements[2].setDetails('Begin time : ' +
-        //  repJs[repJs.length - 1].beginTime + '\nPeak time : ' + repJs[repJs.length - 1].peakTime
-        //  + '\nEnd time : ' + repJs[repJs.length - 1].endTime);
+     
       }
     );
 

@@ -32,7 +32,7 @@ export class GalleryComponent implements OnInit {
 
         for (let i = 0 ; i < rep.collection.items.length && i < 50 ; i++) {
           let obj: Gallery = new Gallery(rep.collection.items[i].links[0].href);
-          // this.tabImages.push(rep.collection.items[i].links[0].href);
+          
 
           // Recherche de la grande image (appel d'un json)
           this.serviceApi.getUrl(rep.collection.items[i].href).subscribe(

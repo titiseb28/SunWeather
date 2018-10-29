@@ -33,7 +33,7 @@ export class ApodService {
     const m = date.getMonth() + 1;
     const d = date.getDate();
 
-    // tslint:disable-next-line:max-line-length
+ 
     const url = 'https://api.nasa.gov/planetary/apod?api_key=T6K4zaSyEepWvVuwGkgdh682F7STzJA1ZypdueZ6&hd=False&date=' + y + '-' + m + '-' + d;
 
     console.log(url);

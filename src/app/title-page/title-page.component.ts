@@ -26,11 +26,7 @@ export class TitlePageComponent implements OnInit {
 
   ngOnInit() {
     const date = new Date();
-    // date.setDate(date.getDate()-1);
-    // date.setFullYear(2015);
-    // date.setMonth(1);
-    // date.setDate(20);
-    // date.setMonth(3);
+  
 
     const tmp: Observable<Apod>[] = this.apodService.getWeekImages(date);
 
